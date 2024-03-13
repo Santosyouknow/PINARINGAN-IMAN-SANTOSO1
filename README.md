@@ -61,7 +61,6 @@ SOURCE CODE
 
 PENJELASAN CODE :
 
-Mari kita bahas setiap baris kode:
 
 1. `#include <stdio.h>`: Mengimpor standar input-output library untuk fungsi `printf()` dan `fgets()`.
 
@@ -109,4 +108,40 @@ Mari kita bahas setiap baris kode:
 OUTPUT :
 
 <img width="772" alt="image" src="https://github.com/Santosyouknow/PINARINGAN-IMAN-SANTOSO1/assets/161540041/8929b8e9-c7ba-47ca-a1b0-da4003e4af0a">
+
+OUTPUT ATAU INPUT FILE TXT. :
+
+<img width="960" alt="image" src="https://github.com/Santosyouknow/PINARINGAN-IMAN-SANTOSO1/assets/161540041/4d3313f3-6173-4cd9-b1a9-7bcdc3c6aebd">
+
+CARA MENGGUNAKANNYA :
+
+Code tersebut dirancang untuk membaca isi dari file teks "ilham.txt" dan memeriksa apakah panjang teks yang dibaca sesuai dengan persyaratan yang ditentukan. Di bawah ini adalah langkah-langkah untuk menggunakan code tersebut dengan file teks:
+
+1. Pastikan Anda memiliki file teks bernama "ilham.txt" yang berisi teks yang ingin Anda periksa panjangnya. Letakkan file tersebut di direktori yang sama dengan file sumber kode C.
+
+2. Buka file sumber kode C (misalnya, `program.c`) di editor teks atau Integrated Development Environment (IDE).
+
+3. Salin kode yang telah Anda sediakan ke dalam file sumber kode C tersebut.
+
+4. Pastikan kompilator C Anda tersedia dan terkonfigurasi dengan benar. Compile program tersebut dengan menggunakan perintah kompilasi yang sesuai. Misalnya, jika Anda menggunakan GCC di terminal Linux, Anda dapat mengetikkan perintah berikut di terminal:
+
+   ```
+   gcc program.c -o program
+   ```
+
+   Ini akan menghasilkan file biner yang dapat dieksekusi bernama "program" dari file sumber kode C Anda.
+
+5. Setelah berhasil dikompilasi, pastikan bahwa file "ilham.txt" berada di direktori yang sama dengan file biner "program" yang dihasilkan.
+
+6. Jalankan program dengan mengetikkan nama file biner yang dihasilkan (misalnya, `program`) di terminal atau command prompt:
+
+   ```
+   ./program
+   ```
+
+   Program akan membaca isi file "ilham.txt", memeriksa panjang teksnya, dan mencetak pesan sesuai dengan panjang teks yang ditemukan.
+
+7. Lihatlah output yang dihasilkan untuk mengetahui apakah panjang teks sesuai dengan persyaratan yang ditentukan dalam kode. Jika tidak sesuai, pesan yang sesuai akan dicetak bersama dengan panjang teks yang diperbarui (jika panjang teks terlalu pendek atau terlalu panjang).
+
+8. Sesuaikan isi file "ilham.txt" jika diperlukan dan ulangi langkah 6 untuk memeriksa kembali panjang teks.
 
